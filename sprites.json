@@ -1,0 +1,94 @@
+{
+    "male-character": {
+        "path": "./assets/redhatfiles/png",
+        "sequences": {
+            "Dead": {
+                "frames": 10
+            },
+            "Idle": {
+                "frames": 10,
+                "repeats": true,
+                "repeatDelay": 5000
+            },
+            "Jump": {
+                "frames": 12,
+                "transitions": true,
+                "transitionTo": "Idle"
+            },
+            "Run": {
+                "frames": 8,
+                "repeats": true,
+                "repeatDelay": 0
+            }
+        }
+    },
+    "female-character": {
+        "path": "./assets/cutegirlfiles/png",
+        "sequences": {
+            "Dead": {
+                "frames": 30
+            },
+            "Idle": {
+                "frames": 16,
+                "repeats": true,
+                "repeatDelay": 5000
+            },
+            "Jump": {
+                "frames": 30,
+                "transitions": true,
+                "transitionTo": "Idle"
+            },
+            "Run": {
+                "frames": 20,
+                "repeats": true,
+                "repeatDelay": 0
+            }
+        }
+    },
+    "male-zombie": {
+        "path": "./zombiefiles/png/male",
+        "sequences": {
+            "Dead": {
+                "frames": 12
+            },
+            "Idle": {
+                "frames": 15,
+                "repeats": true,
+                "repeatDelay": 5000
+            },
+            "Walk": {
+                "frames": 10,
+                "repeats": true,
+                "repeatDelay": 0
+            },
+            "Attack": {
+                "frames": 8,
+                "transitions": true,
+                "transitionTo": "Idle"
+            }
+        }
+    },
+    "female-zombie": {
+        "path": "./zombiefiles/png/female",
+        "sequences": {
+            "Dead": {
+                "frames": 12
+            },
+            "Idle": {
+                "frames": 15,
+                "repeats": true,
+                "repeatDelay": 5000
+            },
+            "Walk": {
+                "frames": 10,
+                "repeats": true,
+                "repeatDelay": 0
+            },
+            "Attack": {
+                "frames": 8,
+                "transitions": true,
+                "transitionTo": "Idle"
+            }
+        }
+    }
+}
